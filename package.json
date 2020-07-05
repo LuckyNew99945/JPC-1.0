@@ -1,0 +1,16 @@
+{
+  "name": "jpc-v.1",
+  "version": "1.0.0",
+  "description": "App for JPC ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Jakarta",
+    "Pried",
+    "Chicken"
+  ],
+  "author": "luckynew",
+  "license": "ISC"
+}

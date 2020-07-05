@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/brand.png" type="image/x-icon" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#E0661C" />
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>JPC - Jakarta Pried Chicken</title>
+  </head>
+  <body>
+    <nav class="lighten-1" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="#" class="brand-logo" id="logo-container"
+          ><img src="/images/brand.png" alt=""
+        /></a>
+        <a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
+        <ul class="topnav right hide-on-med-and-down"></ul>
+        <ul class="sidenav" id="nav-mobile"></ul>
+      </div>
+    </nav>
+    <div class="container" id="body-content"></div>
+
+    <script src="js/materialize.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script>
+      //Register service worker
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker
+            .register('/service-worker.js')
+            .then(() => {
+              console.log('Pendaftaran ServiceWorker berhasil');
+            })
+            .catch(function () {
+              console.log('Pendaftaran ServiceWorker gagal');
+            });
+        });
+      } else {
+        console.log('ServiceWorkder belum didukung browser ini');
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+a {
+  font-weight: bold;
+}
+
+.banner {
+  margin-top: 50px;
+}
+
+.banner-img {
+  background: url('/images/banner_fnl.jpg') no-repeat center center;
+  height: 750px;
+}
+
+.banner-img {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner-img h1 {
+  -webkit-text-stroke: 2px black;
+  font-weight: bold;
+}
+
+.btn-large {
+  background: red;
+  font-weight: bold;
+}
+
+.history {
+  background: url('/images/history.jpg') center center;
+  height: 500px;
+}
+
+.know-us {
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url('/images/know.jpg') center center;
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.know-us h1 {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.menu {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.news {
+  margin-top: 100px;
+}
+
+nav {
+  background-color: #e0661c !important;
+}
+
+.online {
+  background: url('/images/online_fnl.jpg') no-repeat center center;
+  height: 500px;
+}
+
+.soon {
+  background: url('/images/soon.jpg') no-repeat center center;
+  height: 500px;
+}
+
+.section {
+  margin-top: 50px;
+  min-height: 500px;
+  text-align: unset;
+}
+
+.text {
+  font-size: 2.5em;
+}
+
+.text h1 {
+  font-weight: bold;
+}
+
+.vision-mission {
+  background: url('/images/vission.jpg') center center;
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+  .banner-img {
+    height: 500px;
+  }
+
+  .burger {
+    margin-bottom: 50px;
+  }
+
+  .section {
+    text-align: center;
+  }
+}
