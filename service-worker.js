@@ -3,7 +3,7 @@
 /* eslint-disable function-paren-newline */
 /* eslint-disable no-console */
 /* eslint-disable comma-dangle */
-const CACHE_NAME = 'JPC-v1.0';
+const CACHE_NAME = 'JPC-v1.1';
 const urlsToCache = [
   '/',
   '/nav.html',
@@ -14,6 +14,7 @@ const urlsToCache = [
   '/css/materialize.min.css',
   '/js/materialize.min.js',
   '/js/nav.js',
+  '/manifest.json',
   '/style.css',
   '/images/brand.png',
   '/images/banner_fnl.jpg',
@@ -25,6 +26,8 @@ const urlsToCache = [
   '/images/bucket chicken_fnl.jpg',
   '/images/bucket chicken2_fnl.jpg',
   '/images/bucket chicken3_fnl.jpg',
+  'https://fonts.googleapis.com/icon?family=Material+Icons',
+  'https://fonts.gstatic.com/s/materialicons/v52/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2',
 ];
 
 // eslint-disable-next-line no-restricted-globals

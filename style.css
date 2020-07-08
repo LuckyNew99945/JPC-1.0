@@ -11,17 +11,10 @@ a {
   height: 750px;
 }
 
-.banner-img {
-  align-items: center;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.banner-img h1 {
+.banner-text {
   -webkit-text-stroke: 2px black;
   font-weight: bold;
+  font-size: 4em;
 }
 
 .btn-large {
@@ -54,6 +47,10 @@ a {
 .menu {
   margin-top: 50px;
   text-align: center;
+}
+
+.margin-top {
+  margin-top: 100px;
 }
 
 .news {

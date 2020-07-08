@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const sideBarElements = document.querySelectorAll('.sidenav');
   // eslint-disable-next-line no-undef
   M.Sidenav.init(sideBarElements);
+
   // Load Page Content
   let page = window.location.hash.substr(1);
   if (page === '') page = 'home';
@@ -15,6 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const content = document.querySelector('#body-content');
         if (xhttp.status === 200) {
           content.innerHTML = xhttp.responseText;
+          const elems = document.querySelectorAll('.slider');
+          // eslint-disable-next-line no-undef
+          M.Slider.init(elems, { height: 500 });
         } else if (this.status === 404) {
           content.innerHTML = '<p>404 Page Not Found</p>';
         } else {
