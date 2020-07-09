@@ -26,8 +26,17 @@ const urlsToCache = [
   '/images/bucket chicken_fnl.jpg',
   '/images/bucket chicken2_fnl.jpg',
   '/images/bucket chicken3_fnl.jpg',
+  '/images/logo/Logo.png',
+  '/images/logo/Logo96.png',
+  '/images/logo/Logo128.png',
+  '/images/logo/Logo144.png',
+  '/images/logo/Logo192.png',
+  '/images/logo/Logo256.png',
+  '/images/logo/Logo384.png',
+  '/images/logo/Logo512.png',
   'https://fonts.googleapis.com/icon?family=Material+Icons',
   'https://fonts.gstatic.com/s/materialicons/v52/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2',
+  'https://fonts.gstatic.com/s/materialicons/v53/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2',
 ];
 
 // eslint-disable-next-line no-restricted-globals
